@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2? family=Advent+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Abel&family=Advent+Pro:wght@200&display=swap');
+
+
+body {
+    font-family: 'Advent Pro';
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#616161, #1a1a1a);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 2em;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+
+/* **************NAVBAR************* */
+
+nav {
+    overflow: hidden;
+    background-color: rgb(218, 218, 218);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-family: 'Advent Pro';
+    font-weight: bold;
+    float: left;
+}
+
+
+.porsche {
+    padding: 0%;
+    padding-top: 60px;
+    box-shadow: 8px 5px 5px rgb(37, 37, 37);
+    height: 400px;
+    width: auto;
+    padding: 0%;
+    margin-top: 150px;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+
+
+
+/* **************CATEGORIES************* */
+
+
+.categorie {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0%;
+    margin-left: 420px;
+
+}
+
+.sportive:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.suv:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.berlines:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.supercars:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.sportiveimg {
+    display: flex;
+    height: 280px;
+    margin-top: 120px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 0%;
+    margin-left: 150px;
+    
+}
+
+.sportiveimg2 {
+    display: flex;
+    height: 280px;
+    margin-top: 120px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 0%;
+    margin-left: 300px;
+}
+
+
+.sportiveimg p{
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    width: 200px;
+}
+
+.sportiveimg2 p{
+    color: white;
+    font-size: 25px;
+}
+
+/* **********FOOTER********** */
+
+
+
+footer {
+    background: linear-gradient(#616161, #272727);
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input,
+textarea,
+button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 2px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro';
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#icons {
+    width: 70%;
+    text-align: right;
+    margin-top: 5px;
+}
+
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
+
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+}

@@ -6,7 +6,7 @@ body {
     font-family: 'Advent Pro';
     padding: 0;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: rgb(216, 216, 216);
 }
 
 ul{
@@ -35,9 +35,10 @@ a {
 
 nav {
     overflow: hidden;
-    background-color: rgb(7, 7, 67);
+    background: linear-gradient(#616161, #272727);
     position: fixed;
     width: 100%;
+    height: 70px;
     opacity: 0.9;
 }
 
@@ -105,7 +106,7 @@ h3{
 #prestation {
     display: flex;
     justify-content: space-between;
-    padding: 10px 5%;
+    padding: 0px 15%;
 }
 
 .imagePrestation h4 {
@@ -114,11 +115,18 @@ h3{
     font-size: 1.8em;
     margin: 15px;
     font-weight: 300;
+
 }
 
 .imagePrestation img {
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 2px 2px rgb(95, 95, 95);
+    margin: auto;
+    display: block;
+}
+
+.imagePrestation p {
+    font-size: 22px;
 }
 
 .imagePrestation img:hover {
@@ -132,7 +140,7 @@ h3{
 
 
 #tourisme {
-    height: 1100px;
+    height: 800px;
     padding: 1px 2%;
 }
 
@@ -142,14 +150,17 @@ h3{
 
 #rs3 {
     background: url(media/rs3.jpg);
+    border-radius: 20px;
 }
 
 #a45 {
     background: url(media/A45.jpg);
+    border-radius: 20px;
 }
 
 #m2 {
     background: url(media/m2.jpg);
+    border-radius: 20px;
 }
 
 #tourisme li{
@@ -188,7 +199,7 @@ h3{
 
 
 footer{
-    background-color: rgb(7, 7, 67);
+    background: linear-gradient(#616161, #272727);
     opacity: 0.9;
     color: white;
     text-align: center;
@@ -216,6 +227,7 @@ textarea {
 
 button {
     font-size: 1.5em;
+    margin-top: 20px;
 }
 
 button:hover{
